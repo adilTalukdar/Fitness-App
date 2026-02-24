@@ -1,5 +1,5 @@
 spring:
-  Application:
+  application:
     name: eureka
 
 

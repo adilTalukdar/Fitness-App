@@ -1,0 +1,15 @@
+[33m339ec19[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Pointing to Config server
+[33me898247[m Config server added
+[33maebc6f0[m Processing Recommendation
+[33mcefad47[m Generating AI Recommendation
+[33mdcad18f[m Consuming Activity Data from RabbitMQ
+[33mbd8b9e4[m Sending Activity Data to RabbitMQ
+[33mcc843b9[m AI-Service endpoint fixed
+[33m8a1f1a4[m AI-Service created & registered in eureka
+[33m5a63bcd[m established interservice communication
+[33m027a699[m registered activity & user microservices into eureka server
+[33md5034ef[m eureka server establish
+[33m42e5b9e[m activity service endpoints fixed
+[33md98127b[m assign server port & fixed activity model
+[33md76c7e7[m activity microservice created
+[33m976a410[m User service working

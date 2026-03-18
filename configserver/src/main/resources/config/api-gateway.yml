@@ -1,6 +1,11 @@
 spring:
   application:
     name: api-gateway
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:8080/realms/fitness-oauth2/protocol/openid-connect/certs
 
   cloud:
     gateway:
@@ -21,7 +26,7 @@ spring:
             - Path=/api/recommendations/**
 
 server:
-  port: 8080
+  port: 8085
 
 eureka:
   client:
